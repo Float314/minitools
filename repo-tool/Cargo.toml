@@ -1,0 +1,8 @@
+[package]
+name = "repo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dialoguer = "0.12.0"
+git2 = { version = "0.21.0", features = ["https", "ssh"] }
